@@ -14,6 +14,7 @@ Feature: Publish login
       And I click the login button
     Then I should be taken to the base route
 
+# TODO this scenario outline is failing on the last step, I'm not sure why
 # Scenario Outline: Logging in with passing login credentials as a data table
 #   When I enter <username> into the username box
 #     And I enter <password> into the password box
