@@ -21,5 +21,5 @@ Feature: Publish login
 #   Then I should be taken to the base route
 
 #   Examples:
-#     | username password |
-#     | "admin" "dt"      |
+#     | username | password |
+#     | "admin"  | "dt"     |
