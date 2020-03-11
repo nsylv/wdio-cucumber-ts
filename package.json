@@ -7,7 +7,7 @@
         "test": "wdio",
         "test:debug": "DEBUG=true wdio",
         "allure-report": "allure generate ./allure-results --clean && allure open",
-        "build": "echo \"Cleaning...\" && allure generate ./allure-results --clean && allure open"
+        "build": "echo \"Cleaning...\" && allure generate ./allure-results --clean"
     },
     "author": "",
     "license": "ISC",
