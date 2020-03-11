@@ -6,7 +6,8 @@
     "scripts": {
         "test": "wdio",
         "test:debug": "DEBUG=true wdio",
-        "allure-report": "allure generate ./allure-results --clean && allure open"
+        "allure-report": "allure generate ./allure-results --clean && allure open",
+        "build": "allure generate ./allure-results --clean && allure open"
     },
     "author": "",
     "license": "ISC",
