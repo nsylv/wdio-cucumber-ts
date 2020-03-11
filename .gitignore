@@ -63,3 +63,5 @@ typings/
 # allure
 allure-report
 allure-results
+
+.now
