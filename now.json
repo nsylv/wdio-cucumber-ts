@@ -1,0 +1,6 @@
+{
+    "builds": [
+        { "src": "package.json", "use": "@now/static-build" },
+        { "src": "./allure-report/app.js", "use": "@now/static-build" }
+    ]
+}
