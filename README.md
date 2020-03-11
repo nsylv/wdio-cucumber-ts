@@ -1,3 +1,9 @@
+## TODO
+
+To make this work I needed to upgrade chromedriver, see instructions here: https://github.com/SeleniumHQ/selenium/issues/7132
+
+Download chromedriver and put it in the node_modules/chromedriver package
+
 # WebdriverIO CucumberJS Typescript
 
 ## Usage
