@@ -1,0 +1,1113 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "0-0",
+    "children" : [ {
+      "name" : "Logging in",
+      "uid" : "8ff2f276cdecaba1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582727025398,
+        "stop" : 1582727030247,
+        "duration" : 4849
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "chrome-80.0.3987.87" ]
+    }, {
+      "name" : "Performing a search operation with passing test data as data table",
+      "uid" : "d1a3d249ea7d8de9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582679063795,
+        "stop" : 1582679067704,
+        "duration" : 3909
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "2", "chrome-80.0.3987.87" ]
+    }, {
+      "name" : "Performing a search operation",
+      "uid" : "8607c711913b0135",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582679058456,
+        "stop" : 1582679063793,
+        "duration" : 5337
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "chrome-80.0.3987.87" ]
+    }, {
+      "name" : "Logging in with passing login credentials as a data table",
+      "uid" : "2201de63fb6af734",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1582814429434,
+        "stop" : 1582814433039,
+        "duration" : 3605
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "2", "chrome-80.0.3987.87" ]
+    }, {
+      "name" : "Performing a search operation",
+      "uid" : "23e358e8b1e9e4ba",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582726700689,
+        "stop" : 1582726705644,
+        "duration" : 4955
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "chrome-80.0.3987.87" ]
+    }, {
+      "name" : "Logging in",
+      "uid" : "5a3a289ab2b02f68",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582815490218,
+        "stop" : 1582815494858,
+        "duration" : 4640
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "firefox-5.3.0-40-generic" ]
+    }, {
+      "name" : "Performing a search operation with passing test data as data table",
+      "uid" : "4494d1640961c661",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582726823174,
+        "stop" : 1582726827191,
+        "duration" : 4017
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "2", "chrome-80.0.3987.87" ]
+    }, {
+      "name" : "Logging in with passing login credentials as a data table",
+      "uid" : "9b5baebc2b3be8ab",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1582815494858,
+        "stop" : 1582815498325,
+        "duration" : 3467
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "2", "firefox-5.3.0-40-generic" ]
+    }, {
+      "name" : "Logging in with passing login credentials as a data table",
+      "uid" : "9edeed00419c08df",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582814707369,
+        "stop" : 1582814713373,
+        "duration" : 6004
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "2", "chrome-80.0.3987.87" ]
+    }, {
+      "name" : "Logging in",
+      "uid" : "446cd5b66a2cf7b9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582814424995,
+        "stop" : 1582814429433,
+        "duration" : 4438
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "chrome-80.0.3987.87" ]
+    }, {
+      "name" : "Logging in",
+      "uid" : "7d66f62597bbfbcf",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582814307618,
+        "stop" : 1582814312021,
+        "duration" : 4403
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "chrome-80.0.3987.87" ]
+    }, {
+      "name" : "Logging in",
+      "uid" : "d0a9ac0ef29679c2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582814697623,
+        "stop" : 1582814707360,
+        "duration" : 9737
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "chrome-80.0.3987.87" ]
+    }, {
+      "name" : "Performing a search operation with passing test data as data table",
+      "uid" : "e47e7386c88b9530",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582726753931,
+        "stop" : 1582726757814,
+        "duration" : 3883
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "2", "chrome-80.0.3987.87" ]
+    }, {
+      "name" : "Logging in with passing login credentials as a data table",
+      "uid" : "530fc96d4e170e2c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1582727030247,
+        "stop" : 1582727033820,
+        "duration" : 3573
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "2", "chrome-80.0.3987.87" ]
+    }, {
+      "name" : "Logging in",
+      "uid" : "cda476ae1038452",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582814654355,
+        "stop" : 1582814658804,
+        "duration" : 4449
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "chrome-80.0.3987.87" ]
+    }, {
+      "name" : "Performing a search operation",
+      "uid" : "107bab901c467953",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582679159987,
+        "stop" : 1582679165267,
+        "duration" : 5280
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "chrome-80.0.3987.87" ]
+    }, {
+      "name" : "Performing a search operation",
+      "uid" : "4f6effe43e111183",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582726896671,
+        "stop" : 1582726901886,
+        "duration" : 5215
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "chrome-80.0.3987.87" ]
+    }, {
+      "name" : "Logging in",
+      "uid" : "359e9b49af9127ed",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582732240519,
+        "stop" : 1582732250092,
+        "duration" : 9573
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "chrome-80.0.3987.87" ]
+    }, {
+      "name" : "Logging in with passing login credentials as a data table",
+      "uid" : "181568a0febcbab4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1582814658805,
+        "stop" : 1582814662774,
+        "duration" : 3969
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "2", "chrome-80.0.3987.87" ]
+    }, {
+      "name" : "Performing a search operation with passing test data as data table",
+      "uid" : "3a774306682d0a77",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582679019537,
+        "stop" : 1582679024141,
+        "duration" : 4604
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "2", "chrome-80.0.3987.87" ]
+    }, {
+      "name" : "Logging in",
+      "uid" : "3bf5e217b49e5a60",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583250246302,
+        "stop" : 1583250250886,
+        "duration" : 4584
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "chrome-80.0.3987.87" ]
+    }, {
+      "name" : "Performing a search operation",
+      "uid" : "9b2daeccbdb81a8d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582726818194,
+        "stop" : 1582726823171,
+        "duration" : 4977
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "chrome-80.0.3987.87" ]
+    }, {
+      "name" : "Performing a search operation with passing test data as data table",
+      "uid" : "9d21ba4ee9faaa46",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582726705647,
+        "stop" : 1582726709584,
+        "duration" : 3937
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "2", "chrome-80.0.3987.87" ]
+    }, {
+      "name" : "Performing a search operation",
+      "uid" : "f899d0243d107da5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582726749184,
+        "stop" : 1582726753929,
+        "duration" : 4745
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "chrome-80.0.3987.87" ]
+    }, {
+      "name" : "Performing a search operation with passing test data as data table",
+      "uid" : "3f85b0f05b62d186",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582679165269,
+        "stop" : 1582679169342,
+        "duration" : 4073
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "2", "chrome-80.0.3987.87" ]
+    }, {
+      "name" : "Logging in",
+      "uid" : "559215a3690b4d43",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582726986404,
+        "stop" : 1582726990967,
+        "duration" : 4563
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "chrome-80.0.3987.87" ]
+    }, {
+      "name" : "Performing a search operation with passing test data as data table",
+      "uid" : "bdcbf7b5f5a184aa",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582676885377,
+        "stop" : 1582676889806,
+        "duration" : 4429
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "2", "chrome-80.0.3987.87" ]
+    }, {
+      "name" : "Performing a search operation",
+      "uid" : "ee0f5f54aa8d064e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582679014497,
+        "stop" : 1582679019535,
+        "duration" : 5038
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "chrome-80.0.3987.87" ]
+    }, {
+      "name" : "Performing a search operation",
+      "uid" : "6a8bf8c48a8daf63",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582676880026,
+        "stop" : 1582676885375,
+        "duration" : 5349
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "chrome-80.0.3987.87" ]
+    }, {
+      "name" : "Logging in with passing login credentials as a data table",
+      "uid" : "413b56e0629d6686",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582814312021,
+        "stop" : 1582814313097,
+        "duration" : 1076
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "2", "chrome-80.0.3987.87" ]
+    }, {
+      "name" : "Logging in",
+      "uid" : "830f056ded76c0e9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583247634362,
+        "stop" : 1583247638984,
+        "duration" : 4622
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "chrome-80.0.3987.87" ]
+    }, {
+      "name" : "Performing a search operation with passing test data as data table",
+      "uid" : "931436dcff7e49c8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582726901889,
+        "stop" : 1582726906564,
+        "duration" : 4675
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "2", "chrome-80.0.3987.87" ]
+    } ],
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  }, {
+    "name" : "1-0",
+    "children" : [ {
+      "name" : "Performing a search operation with passing test data as data table",
+      "uid" : "429f44679d0e88f2",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582679167123,
+        "stop" : 1582679171739,
+        "duration" : 4616
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "2", "firefox-5.3.0-40-generic" ]
+    }, {
+      "name" : "Logging in with passing login credentials as a data table",
+      "uid" : "b7617747aecc364b",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "failed",
+      "time" : {
+        "start" : 1582814431516,
+        "stop" : 1582814434872,
+        "duration" : 3356
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "2", "firefox-5.3.0-40-generic" ]
+    }, {
+      "name" : "Logging in with passing login credentials as a data table",
+      "uid" : "462d04b87a3df0a2",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "failed",
+      "time" : {
+        "start" : 1582814660130,
+        "stop" : 1582814663931,
+        "duration" : 3801
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "2", "firefox-5.3.0-40-generic" ]
+    }, {
+      "name" : "Performing a search operation",
+      "uid" : "952b881d9fc22840",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582726898256,
+        "stop" : 1582726902990,
+        "duration" : 4734
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "firefox-5.3.0-40-generic" ]
+    }, {
+      "name" : "Performing a search operation with passing test data as data table",
+      "uid" : "7eec90189b5b7fac",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582726755697,
+        "stop" : 1582726759932,
+        "duration" : 4235
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "2", "firefox-5.3.0-40-generic" ]
+    }, {
+      "name" : "Logging in",
+      "uid" : "ac4fe5c6d64ef8bc",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583247635663,
+        "stop" : 1583247641974,
+        "duration" : 6311
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "firefox-5.3.0-40-generic" ]
+    }, {
+      "name" : "Performing a search operation with passing test data as data table",
+      "uid" : "8fd78c01f466e211",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582679021107,
+        "stop" : 1582679026276,
+        "duration" : 5169
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "2", "firefox-5.3.0-40-generic" ]
+    }, {
+      "name" : "Logging in",
+      "uid" : "6a62a3dbfd6f943f",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583250248162,
+        "stop" : 1583250254219,
+        "duration" : 6057
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "firefox-5.3.0-40-generic" ]
+    }, {
+      "name" : "Performing a search operation with passing test data as data table",
+      "uid" : "b22b8b126f7cc123",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582679065761,
+        "stop" : 1582679070426,
+        "duration" : 4665
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "2", "firefox-5.3.0-40-generic" ]
+    }, {
+      "name" : "Performing a search operation with passing test data as data table",
+      "uid" : "ad81365911df3237",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582726706290,
+        "stop" : 1582726710600,
+        "duration" : 4310
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "2", "firefox-5.3.0-40-generic" ]
+    }, {
+      "name" : "Logging in with passing login credentials as a data table",
+      "uid" : "cb5c51ee5ff97dd7",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "failed",
+      "time" : {
+        "start" : 1582727031765,
+        "stop" : 1582727035105,
+        "duration" : 3340
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "2", "firefox-5.3.0-40-generic" ]
+    }, {
+      "name" : "Logging in with passing login credentials as a data table",
+      "uid" : "ccdc4de8170cd153",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582814313636,
+        "stop" : 1582814314746,
+        "duration" : 1110
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "2", "firefox-5.3.0-40-generic" ]
+    }, {
+      "name" : "Logging in",
+      "uid" : "be0f4639361b7d7c",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "failed",
+      "time" : {
+        "start" : 1582732241844,
+        "stop" : 1582732250828,
+        "duration" : 8984
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "firefox-5.3.0-40-generic" ]
+    }, {
+      "name" : "Logging in",
+      "uid" : "73ba6f6d5def7d7e",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582814426335,
+        "stop" : 1582814431516,
+        "duration" : 5181
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "firefox-5.3.0-40-generic" ]
+    }, {
+      "name" : "Logging in",
+      "uid" : "7dd91e939576a1b3",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582815488860,
+        "stop" : 1582815493318,
+        "duration" : 4458
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "chrome-80.0.3987.87" ]
+    }, {
+      "name" : "Performing a search operation",
+      "uid" : "eff90fdda6caeb9f",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582676881443,
+        "stop" : 1582676887155,
+        "duration" : 5712
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "firefox-5.3.0-40-generic" ]
+    }, {
+      "name" : "Logging in",
+      "uid" : "a31e03d1191c935d",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "failed",
+      "time" : {
+        "start" : 1582814698937,
+        "stop" : 1582814708144,
+        "duration" : 9207
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "firefox-5.3.0-40-generic" ]
+    }, {
+      "name" : "Performing a search operation with passing test data as data table",
+      "uid" : "f95d2ccbcb380de7",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582676887158,
+        "stop" : 1582676891723,
+        "duration" : 4565
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "2", "firefox-5.3.0-40-generic" ]
+    }, {
+      "name" : "Performing a search operation",
+      "uid" : "f6a522fbccb7d531",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582679059931,
+        "stop" : 1582679065759,
+        "duration" : 5828
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "firefox-5.3.0-40-generic" ]
+    }, {
+      "name" : "Performing a search operation with passing test data as data table",
+      "uid" : "87bfd374d83f09ab",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582726902992,
+        "stop" : 1582726907999,
+        "duration" : 5007
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "2", "firefox-5.3.0-40-generic" ]
+    }, {
+      "name" : "Performing a search operation with passing test data as data table",
+      "uid" : "54322887ec1fc6f",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582726824618,
+        "stop" : 1582726829171,
+        "duration" : 4553
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "2", "firefox-5.3.0-40-generic" ]
+    }, {
+      "name" : "Logging in with passing login credentials as a data table",
+      "uid" : "e53398775802c491",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582814708146,
+        "stop" : 1582814714149,
+        "duration" : 6003
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "2", "firefox-5.3.0-40-generic" ]
+    }, {
+      "name" : "Performing a search operation",
+      "uid" : "1da3e3fd8749ddf5",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582726750844,
+        "stop" : 1582726755695,
+        "duration" : 4851
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "firefox-5.3.0-40-generic" ]
+    }, {
+      "name" : "Performing a search operation",
+      "uid" : "e335c286f1b5523",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582726702013,
+        "stop" : 1582726706287,
+        "duration" : 4274
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "firefox-5.3.0-40-generic" ]
+    }, {
+      "name" : "Logging in",
+      "uid" : "cb5db0905a66e8f1",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582727026724,
+        "stop" : 1582727031764,
+        "duration" : 5040
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "firefox-5.3.0-40-generic" ]
+    }, {
+      "name" : "Logging in",
+      "uid" : "7f3f40936802e2f7",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582814655669,
+        "stop" : 1582814660129,
+        "duration" : 4460
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "firefox-5.3.0-40-generic" ]
+    }, {
+      "name" : "Performing a search operation",
+      "uid" : "6910c65fc9693e7e",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582679015934,
+        "stop" : 1582679021105,
+        "duration" : 5171
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "firefox-5.3.0-40-generic" ]
+    }, {
+      "name" : "Logging in",
+      "uid" : "9bea32dafe493fd",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582726987639,
+        "stop" : 1582726992370,
+        "duration" : 4731
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "firefox-5.3.0-40-generic" ]
+    }, {
+      "name" : "Logging in with passing login credentials as a data table",
+      "uid" : "6d856d494e07a13f",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "failed",
+      "time" : {
+        "start" : 1582815493318,
+        "stop" : 1582815496944,
+        "duration" : 3626
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "2", "chrome-80.0.3987.87" ]
+    }, {
+      "name" : "Performing a search operation",
+      "uid" : "ef1173f342a0f93a",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582679161563,
+        "stop" : 1582679167120,
+        "duration" : 5557
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "firefox-5.3.0-40-generic" ]
+    }, {
+      "name" : "Logging in",
+      "uid" : "7a8c45ebe484074f",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582814308914,
+        "stop" : 1582814313636,
+        "duration" : 4722
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "firefox-5.3.0-40-generic" ]
+    }, {
+      "name" : "Performing a search operation",
+      "uid" : "c29b38855acaa80c",
+      "parentUid" : "5d884c24784638b93056bad95e3212e7",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582726819607,
+        "stop" : 1582726824616,
+        "duration" : 5009
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "firefox-5.3.0-40-generic" ]
+    } ],
+    "uid" : "5d884c24784638b93056bad95e3212e7"
+  }, {
+    "name" : "0-1",
+    "children" : [ {
+      "name" : "Logging in with passing login credentials as a data table",
+      "uid" : "7127b5d016decb2b",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1582726701843,
+        "stop" : 1582726703215,
+        "duration" : 1372
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "2", "chrome-80.0.3987.87" ]
+    }, {
+      "name" : "Logging in",
+      "uid" : "d04a01830b278a3",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1582726700665,
+        "stop" : 1582726701840,
+        "duration" : 1175
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "chrome-80.0.3987.87" ]
+    }, {
+      "name" : "Logging in",
+      "uid" : "8d454bb2d1aeda29",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1582679014440,
+        "stop" : 1582679015563,
+        "duration" : 1123
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "chrome-80.0.3987.87" ]
+    }, {
+      "name" : "Logging in with passing login credentials as a data table",
+      "uid" : "a600c63b6da9facc",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1582726754213,
+        "stop" : 1582726757800,
+        "duration" : 3587
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "2", "chrome-80.0.3987.87" ]
+    }, {
+      "name" : "Logging in",
+      "uid" : "b3bdb1fb2ee906c5",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582726749293,
+        "stop" : 1582726754212,
+        "duration" : 4919
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "chrome-80.0.3987.87" ]
+    }, {
+      "name" : "Logging in with passing login credentials as a data table",
+      "uid" : "95e4503734fc98ad",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1582726822941,
+        "stop" : 1582726826602,
+        "duration" : 3661
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "2", "chrome-80.0.3987.87" ]
+    }, {
+      "name" : "Logging in",
+      "uid" : "e0ffdc76bf39f0af",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582679058436,
+        "stop" : 1582679063359,
+        "duration" : 4923
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "chrome-80.0.3987.87" ]
+    }, {
+      "name" : "Logging in",
+      "uid" : "df11112b1c5a748b",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582679160025,
+        "stop" : 1582679165069,
+        "duration" : 5044
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "chrome-80.0.3987.87" ]
+    }, {
+      "name" : "Logging in",
+      "uid" : "d8529586fb138b72",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582726818200,
+        "stop" : 1582726822940,
+        "duration" : 4740
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "chrome-80.0.3987.87" ]
+    }, {
+      "name" : "Logging in",
+      "uid" : "9e5dc9116fbe8143",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582726896698,
+        "stop" : 1582726901349,
+        "duration" : 4651
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "chrome-80.0.3987.87" ]
+    } ],
+    "uid" : "27fa874cadc1574e37a07abb440963bd"
+  }, {
+    "name" : "1-1",
+    "children" : [ {
+      "name" : "Logging in",
+      "uid" : "64d385328e9ac4b1",
+      "parentUid" : "7f515bb52d6d225c0a299e7d9c0e2786",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582726819698,
+        "stop" : 1582726824332,
+        "duration" : 4634
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "firefox-5.3.0-40-generic" ]
+    }, {
+      "name" : "Logging in",
+      "uid" : "d8290a1287fdafb0",
+      "parentUid" : "7f515bb52d6d225c0a299e7d9c0e2786",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582726898146,
+        "stop" : 1582726902883,
+        "duration" : 4737
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "firefox-5.3.0-40-generic" ]
+    }, {
+      "name" : "Logging in",
+      "uid" : "993a2d27930d53b",
+      "parentUid" : "7f515bb52d6d225c0a299e7d9c0e2786",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582679161575,
+        "stop" : 1582679167337,
+        "duration" : 5762
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "firefox-5.3.0-40-generic" ]
+    }, {
+      "name" : "Logging in",
+      "uid" : "cfe45dfe0ccc7bcf",
+      "parentUid" : "7f515bb52d6d225c0a299e7d9c0e2786",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582726702115,
+        "stop" : 1582726708123,
+        "duration" : 6008
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "firefox-5.3.0-40-generic" ]
+    }, {
+      "name" : "Logging in",
+      "uid" : "a05b98d225d4cdcf",
+      "parentUid" : "7f515bb52d6d225c0a299e7d9c0e2786",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582726750725,
+        "stop" : 1582726755802,
+        "duration" : 5077
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "firefox-5.3.0-40-generic" ]
+    }, {
+      "name" : "Logging in with passing login credentials as a data table",
+      "uid" : "e6e54ce320182320",
+      "parentUid" : "7f515bb52d6d225c0a299e7d9c0e2786",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582726708128,
+        "stop" : 1582726714131,
+        "duration" : 6003
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "2", "firefox-5.3.0-40-generic" ]
+    }, {
+      "name" : "Logging in with passing login credentials as a data table",
+      "uid" : "52903d3841cfacff",
+      "parentUid" : "7f515bb52d6d225c0a299e7d9c0e2786",
+      "status" : "failed",
+      "time" : {
+        "start" : 1582726824333,
+        "stop" : 1582726827755,
+        "duration" : 3422
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "2", "firefox-5.3.0-40-generic" ]
+    }, {
+      "name" : "Logging in with passing login credentials as a data table",
+      "uid" : "f14e313673f2cda0",
+      "parentUid" : "7f515bb52d6d225c0a299e7d9c0e2786",
+      "status" : "failed",
+      "time" : {
+        "start" : 1582726755803,
+        "stop" : 1582726759169,
+        "duration" : 3366
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "2", "firefox-5.3.0-40-generic" ]
+    }, {
+      "name" : "Logging in",
+      "uid" : "a8bde2475505d068",
+      "parentUid" : "7f515bb52d6d225c0a299e7d9c0e2786",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582679015959,
+        "stop" : 1582679016159,
+        "duration" : 200
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "firefox-5.3.0-40-generic" ]
+    }, {
+      "name" : "Logging in",
+      "uid" : "efabfd1c82fbbb18",
+      "parentUid" : "7f515bb52d6d225c0a299e7d9c0e2786",
+      "status" : "broken",
+      "time" : {
+        "start" : 1582679060007,
+        "stop" : 1582679065235,
+        "duration" : 5228
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "firefox-5.3.0-40-generic" ]
+    } ],
+    "uid" : "7f515bb52d6d225c0a299e7d9c0e2786"
+  } ],
+  "name" : "timeline"
+}

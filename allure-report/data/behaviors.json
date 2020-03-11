@@ -1,0 +1,109 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Performing a search operation",
+    "uid" : "4f6effe43e111183",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1582726896671,
+      "stop" : 1582726901886,
+      "duration" : 5215
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "1", "chrome-80.0.3987.87" ]
+  }, {
+    "name" : "Performing a search operation",
+    "uid" : "952b881d9fc22840",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1582726898256,
+      "stop" : 1582726902990,
+      "duration" : 4734
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "1", "firefox-5.3.0-40-generic" ]
+  }, {
+    "name" : "Performing a search operation with passing test data as data table",
+    "uid" : "931436dcff7e49c8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1582726901889,
+      "stop" : 1582726906564,
+      "duration" : 4675
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2", "chrome-80.0.3987.87" ]
+  }, {
+    "name" : "Performing a search operation with passing test data as data table",
+    "uid" : "87bfd374d83f09ab",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1582726902992,
+      "stop" : 1582726907999,
+      "duration" : 5007
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2", "firefox-5.3.0-40-generic" ]
+  }, {
+    "name" : "Logging in with passing login credentials as a data table",
+    "uid" : "6d856d494e07a13f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1582815493318,
+      "stop" : 1582815496944,
+      "duration" : 3626
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2", "chrome-80.0.3987.87" ]
+  }, {
+    "name" : "Logging in with passing login credentials as a data table",
+    "uid" : "9b5baebc2b3be8ab",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1582815494858,
+      "stop" : 1582815498325,
+      "duration" : 3467
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2", "firefox-5.3.0-40-generic" ]
+  }, {
+    "name" : "Logging in",
+    "uid" : "3bf5e217b49e5a60",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1583250246302,
+      "stop" : 1583250250886,
+      "duration" : 4584
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "1", "chrome-80.0.3987.87" ]
+  }, {
+    "name" : "Logging in",
+    "uid" : "6a62a3dbfd6f943f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1583250248162,
+      "stop" : 1583250254219,
+      "duration" : 6057
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "1", "firefox-5.3.0-40-generic" ]
+  } ],
+  "name" : "behaviors"
+}

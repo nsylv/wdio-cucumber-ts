@@ -1,0 +1,144 @@
+{
+  "uid" : "5a3a289ab2b02f68",
+  "name" : "Logging in",
+  "fullName" : "Publish login.Logging in",
+  "historyId" : "4361e1131d63e22b11302a74d073b188",
+  "time" : {
+    "start" : 1582815490218,
+    "stop" : 1582815494858,
+    "duration" : 4640
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am on the login page",
+      "time" : {
+        "start" : 1582815490222,
+        "stop" : 1582815491851,
+        "duration" : 1629
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I enter \"admin\" into the username box",
+      "time" : {
+        "start" : 1582815491851,
+        "stop" : 1582815492979,
+        "duration" : 1128
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And I enter \"dt\" into the password box",
+      "time" : {
+        "start" : 1582815492979,
+        "stop" : 1582815494043,
+        "duration" : 1064
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And I click the login button",
+      "time" : {
+        "start" : 1582815494044,
+        "stop" : 1582815494853,
+        "duration" : 809
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should be taken to the base route",
+      "time" : {
+        "start" : 1582815494853,
+        "stop" : 1582815494857,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Publish login"
+  }, {
+    "name" : "testClass",
+    "value" : "Publish login"
+  }, {
+    "name" : "testMethod",
+    "value" : "Logging in"
+  }, {
+    "name" : "package",
+    "value" : "Publish login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "Scenario #",
+    "value" : "1"
+  }, {
+    "name" : "browser",
+    "value" : "firefox-5.3.0-40-generic"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5a3a289ab2b02f68.json",
+  "parameterValues" : [ "1", "firefox-5.3.0-40-generic" ]
+}

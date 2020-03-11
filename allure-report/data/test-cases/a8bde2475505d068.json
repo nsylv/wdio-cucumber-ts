@@ -1,0 +1,155 @@
+{
+  "uid" : "a8bde2475505d068",
+  "name" : "Logging in",
+  "fullName" : "Publish login.Logging in",
+  "historyId" : "4361e1131d63e22b11302a74d073b188",
+  "time" : {
+    "start" : 1582679015959,
+    "stop" : 1582679016159,
+    "duration" : 200
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Reached error page: about:neterror?e=connectionFailure&u=http%3A//localhost%3A3112/login.html&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost%3A3112.",
+  "statusTrace" : "unknown error: Reached error page: about:neterror?e=connectionFailure&u=http%3A//localhost%3A3112/login.html&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost%3A3112.\n                    at endReadableNT (_stream_readable.js:1064:12)\n                    at Object.openLoginPage (/home/nikki/Documents/webdriverio-typescript-cucumber/src/pages/Publish.ts:2:13)\n                    at PublishLoginSteps.<anonymous> (/home/nikki/Documents/webdriverio-typescript-cucumber/src/stepDefinitions/publish-login.steps.ts:16:9)\n                    at step (/home/nikki/Documents/webdriverio-typescript-cucumber/src/stepDefinitions/publish-login.steps.ts:39:23)\n                    at Object.next (/home/nikki/Documents/webdriverio-typescript-cucumber/src/stepDefinitions/publish-login.steps.ts:20:53)\n                    at /home/nikki/Documents/webdriverio-typescript-cucumber/src/stepDefinitions/publish-login.steps.ts:14:71\n                    at PublishLoginSteps.givenOnLoginPage (/home/nikki/Documents/webdriverio-typescript-cucumber/src/stepDefinitions/publish-login.steps.ts:52:16)\n                    at World.bindingFunc (/home/nikki/Documents/webdriverio-typescript-cucumber/node_modules/cucumber-tsflow/src/binding-decorator.ts:161:22)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Reached error page: about:neterror?e=connectionFailure&u=http%3A//localhost%3A3112/login.html&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost%3A3112.",
+    "statusTrace" : "unknown error: Reached error page: about:neterror?e=connectionFailure&u=http%3A//localhost%3A3112/login.html&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost%3A3112.\n                    at endReadableNT (_stream_readable.js:1064:12)\n                    at Object.openLoginPage (/home/nikki/Documents/webdriverio-typescript-cucumber/src/pages/Publish.ts:2:13)\n                    at PublishLoginSteps.<anonymous> (/home/nikki/Documents/webdriverio-typescript-cucumber/src/stepDefinitions/publish-login.steps.ts:16:9)\n                    at step (/home/nikki/Documents/webdriverio-typescript-cucumber/src/stepDefinitions/publish-login.steps.ts:39:23)\n                    at Object.next (/home/nikki/Documents/webdriverio-typescript-cucumber/src/stepDefinitions/publish-login.steps.ts:20:53)\n                    at /home/nikki/Documents/webdriverio-typescript-cucumber/src/stepDefinitions/publish-login.steps.ts:14:71\n                    at PublishLoginSteps.givenOnLoginPage (/home/nikki/Documents/webdriverio-typescript-cucumber/src/stepDefinitions/publish-login.steps.ts:52:16)\n                    at World.bindingFunc (/home/nikki/Documents/webdriverio-typescript-cucumber/node_modules/cucumber-tsflow/src/binding-decorator.ts:161:22)",
+    "steps" : [ {
+      "name" : "Given I am on the login page",
+      "time" : {
+        "start" : 1582679015965,
+        "stop" : 1582679016158,
+        "duration" : 193
+      },
+      "status" : "broken",
+      "statusMessage" : "unknown error: Reached error page: about:neterror?e=connectionFailure&u=http%3A//localhost%3A3112/login.html&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost%3A3112.\n                    at endReadableNT (_stream_readable.js:1064:12)\n                    at Object.openLoginPage (/home/nikki/Documents/webdriverio-typescript-cucumber/src/pages/Publish.ts:2:13)\n                    at PublishLoginSteps.<anonymous> (/home/nikki/Documents/webdriverio-typescript-cucumber/src/stepDefinitions/publish-login.steps.ts:16:9)\n                    at step (/home/nikki/Documents/webdriverio-typescript-cucumber/src/stepDefinitions/publish-login.steps.ts:39:23)\n                    at Object.next (/home/nikki/Documents/webdriverio-typescript-cucumber/src/stepDefinitions/publish-login.steps.ts:20:53)\n                    at /home/nikki/Documents/webdriverio-typescript-cucumber/src/stepDefinitions/publish-login.steps.ts:14:71\n                    at PublishLoginSteps.givenOnLoginPage (/home/nikki/Documents/webdriverio-typescript-cucumber/src/stepDefinitions/publish-login.steps.ts:52:16)\n                    at World.bindingFunc (/home/nikki/Documents/webdriverio-typescript-cucumber/node_modules/cucumber-tsflow/src/binding-decorator.ts:161:22)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e3b2f8130b618f8a",
+        "name" : "Screenshot",
+        "source" : "e3b2f8130b618f8a.png",
+        "type" : "image/png",
+        "size" : 59320
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "When I enter \"admin\" into the username box",
+      "time" : {
+        "start" : 1582679016159,
+        "stop" : 1582679016159,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And I enter \"dt\" into the password box",
+      "time" : {
+        "start" : 1582679016160,
+        "stop" : 1582679016160,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And I click the login button",
+      "time" : {
+        "start" : 1582679016160,
+        "stop" : 1582679016160,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should be taken to the base route",
+      "time" : {
+        "start" : 1582679016160,
+        "stop" : 1582679016160,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-1"
+  }, {
+    "name" : "suite",
+    "value" : "Publish login"
+  }, {
+    "name" : "testClass",
+    "value" : "Publish login"
+  }, {
+    "name" : "testMethod",
+    "value" : "Logging in"
+  }, {
+    "name" : "package",
+    "value" : "Publish login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "Scenario #",
+    "value" : "1"
+  }, {
+    "name" : "browser",
+    "value" : "firefox-5.3.0-40-generic"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a8bde2475505d068.json",
+  "parameterValues" : [ "1", "firefox-5.3.0-40-generic" ]
+}

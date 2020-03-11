@@ -1,0 +1,209 @@
+{
+  "uid" : "931436dcff7e49c8",
+  "name" : "Performing a search operation with passing test data as data table",
+  "fullName" : "Performing a Google Search.Performing a search operation with passing test data as data table",
+  "historyId" : "21861b74c42161497b30a688745fdb3",
+  "time" : {
+    "start" : 1582726901889,
+    "stop" : 1582726906564,
+    "duration" : 4675
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element (\"#resultStats\") still not displayed after 1000ms",
+  "statusTrace" : "Error: element (\"#resultStats\") still not displayed after 1000ms\n                    at <anonymous>\n                    at Homepage.isSearched (/home/nikki/Documents/webdriverio-typescript-cucumber/src/pages/Homepage.ts:32:22)\n                    at HomepageSearchSteps.resultsShouldShow (/home/nikki/Documents/webdriverio-typescript-cucumber/src/stepDefinitions/homepage-search.steps.ts:27:32)\n                    at World.bindingFunc (/home/nikki/Documents/webdriverio-typescript-cucumber/node_modules/cucumber-tsflow/src/binding-decorator.ts:161:22)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element (\"#resultStats\") still not displayed after 1000ms",
+    "statusTrace" : "Error: element (\"#resultStats\") still not displayed after 1000ms\n                    at <anonymous>\n                    at Homepage.isSearched (/home/nikki/Documents/webdriverio-typescript-cucumber/src/pages/Homepage.ts:32:22)\n                    at HomepageSearchSteps.resultsShouldShow (/home/nikki/Documents/webdriverio-typescript-cucumber/src/stepDefinitions/homepage-search.steps.ts:27:32)\n                    at World.bindingFunc (/home/nikki/Documents/webdriverio-typescript-cucumber/node_modules/cucumber-tsflow/src/binding-decorator.ts:161:22)",
+    "steps" : [ {
+      "name" : "Given I am on the search page",
+      "time" : {
+        "start" : 1582726901890,
+        "stop" : 1582726903165,
+        "duration" : 1275
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I enter \"Selenium Webdriver\" into the search box",
+      "time" : {
+        "start" : 1582726903165,
+        "stop" : 1582726904312,
+        "duration" : 1147
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And I click the search button",
+      "time" : {
+        "start" : 1582726904312,
+        "stop" : 1582726905488,
+        "duration" : 1176
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should see a list of search results",
+      "time" : {
+        "start" : 1582726905488,
+        "stop" : 1582726906564,
+        "duration" : 1076
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: element (\"#resultStats\") still not displayed after 1000ms\n                    at <anonymous>\n                    at Homepage.isSearched (/home/nikki/Documents/webdriverio-typescript-cucumber/src/pages/Homepage.ts:32:22)\n                    at HomepageSearchSteps.resultsShouldShow (/home/nikki/Documents/webdriverio-typescript-cucumber/src/stepDefinitions/homepage-search.steps.ts:27:32)\n                    at World.bindingFunc (/home/nikki/Documents/webdriverio-typescript-cucumber/node_modules/cucumber-tsflow/src/binding-decorator.ts:161:22)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d553b5bebb6b966b",
+        "name" : "Screenshot",
+        "source" : "d553b5bebb6b966b.png",
+        "type" : "image/png",
+        "size" : 68912
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Performing a Google Search"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing a Google Search"
+  }, {
+    "name" : "testMethod",
+    "value" : "Performing a search operation with passing test data as data table"
+  }, {
+    "name" : "package",
+    "value" : "Performing a Google Search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "Scenario #",
+    "value" : "2"
+  }, {
+    "name" : "browser",
+    "value" : "chrome-80.0.3987.87"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4494d1640961c661",
+      "status" : "broken",
+      "statusDetails" : "element (\"#resultStats\") still not displayed after 1000ms",
+      "time" : {
+        "start" : 1582726823174,
+        "stop" : 1582726827191,
+        "duration" : 4017
+      }
+    }, {
+      "uid" : "e47e7386c88b9530",
+      "status" : "broken",
+      "statusDetails" : "element (\"#resultStats\") still not displayed after 1000ms",
+      "time" : {
+        "start" : 1582726753931,
+        "stop" : 1582726757814,
+        "duration" : 3883
+      }
+    }, {
+      "uid" : "9d21ba4ee9faaa46",
+      "status" : "broken",
+      "statusDetails" : "element (\"#resultStats\") still not displayed after 1000ms",
+      "time" : {
+        "start" : 1582726705647,
+        "stop" : 1582726709584,
+        "duration" : 3937
+      }
+    }, {
+      "uid" : "3f85b0f05b62d186",
+      "status" : "broken",
+      "statusDetails" : "element (\"#resultStats\") still not displayed after 1000ms",
+      "time" : {
+        "start" : 1582679165269,
+        "stop" : 1582679169342,
+        "duration" : 4073
+      }
+    }, {
+      "uid" : "d1a3d249ea7d8de9",
+      "status" : "broken",
+      "statusDetails" : "element (\"#resultStats\") still not displayed after 1000ms",
+      "time" : {
+        "start" : 1582679063795,
+        "stop" : 1582679067704,
+        "duration" : 3909
+      }
+    }, {
+      "uid" : "3a774306682d0a77",
+      "status" : "broken",
+      "statusDetails" : "element (\"#resultStats\") still not displayed after 1000ms",
+      "time" : {
+        "start" : 1582679019537,
+        "stop" : 1582679024141,
+        "duration" : 4604
+      }
+    }, {
+      "uid" : "bdcbf7b5f5a184aa",
+      "status" : "broken",
+      "statusDetails" : "element (\"#resultStats\") still not displayed after 1000ms",
+      "time" : {
+        "start" : 1582676885377,
+        "stop" : 1582676889806,
+        "duration" : 4429
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "931436dcff7e49c8.json",
+  "parameterValues" : [ "2", "chrome-80.0.3987.87" ]
+}

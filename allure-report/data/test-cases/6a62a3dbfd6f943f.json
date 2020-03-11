@@ -1,0 +1,279 @@
+{
+  "uid" : "6a62a3dbfd6f943f",
+  "name" : "Logging in",
+  "fullName" : "Publish login.Logging in",
+  "historyId" : "4361e1131d63e22b11302a74d073b188",
+  "time" : {
+    "start" : 1583250248162,
+    "stop" : 1583250254219,
+    "duration" : 6057
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given I am on the login page",
+      "time" : {
+        "start" : 1583250248167,
+        "stop" : 1583250250611,
+        "duration" : 2444
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I enter \"admin\" into the username box",
+      "time" : {
+        "start" : 1583250250611,
+        "stop" : 1583250251672,
+        "duration" : 1061
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And I enter \"dt\" into the password box",
+      "time" : {
+        "start" : 1583250251672,
+        "stop" : 1583250252732,
+        "duration" : 1060
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And I click the login button",
+      "time" : {
+        "start" : 1583250252732,
+        "stop" : 1583250254211,
+        "duration" : 1479
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should be taken to the base route",
+      "time" : {
+        "start" : 1583250254212,
+        "stop" : 1583250254218,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "Publish login"
+  }, {
+    "name" : "testClass",
+    "value" : "Publish login"
+  }, {
+    "name" : "testMethod",
+    "value" : "Logging in"
+  }, {
+    "name" : "package",
+    "value" : "Publish login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "Scenario #",
+    "value" : "1"
+  }, {
+    "name" : "browser",
+    "value" : "firefox-5.3.0-40-generic"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ac4fe5c6d64ef8bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1583247635663,
+        "stop" : 1583247641974,
+        "duration" : 6311
+      }
+    }, {
+      "uid" : "5a3a289ab2b02f68",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582815490218,
+        "stop" : 1582815494858,
+        "duration" : 4640
+      }
+    }, {
+      "uid" : "a31e03d1191c935d",
+      "status" : "failed",
+      "statusDetails" : "expected false to be true",
+      "time" : {
+        "start" : 1582814698937,
+        "stop" : 1582814708144,
+        "duration" : 9207
+      }
+    }, {
+      "uid" : "7f3f40936802e2f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582814655669,
+        "stop" : 1582814660129,
+        "duration" : 4460
+      }
+    }, {
+      "uid" : "73ba6f6d5def7d7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582814426335,
+        "stop" : 1582814431516,
+        "duration" : 5181
+      }
+    }, {
+      "uid" : "7a8c45ebe484074f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582814308914,
+        "stop" : 1582814313636,
+        "duration" : 4722
+      }
+    }, {
+      "uid" : "be0f4639361b7d7c",
+      "status" : "failed",
+      "statusDetails" : "expected false to be true",
+      "time" : {
+        "start" : 1582732241844,
+        "stop" : 1582732250828,
+        "duration" : 8984
+      }
+    }, {
+      "uid" : "cb5db0905a66e8f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582727026724,
+        "stop" : 1582727031764,
+        "duration" : 5040
+      }
+    }, {
+      "uid" : "9bea32dafe493fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582726987639,
+        "stop" : 1582726992370,
+        "duration" : 4731
+      }
+    }, {
+      "uid" : "d8290a1287fdafb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582726898146,
+        "stop" : 1582726902883,
+        "duration" : 4737
+      }
+    }, {
+      "uid" : "64d385328e9ac4b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582726819698,
+        "stop" : 1582726824332,
+        "duration" : 4634
+      }
+    }, {
+      "uid" : "a05b98d225d4cdcf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582726750725,
+        "stop" : 1582726755802,
+        "duration" : 5077
+      }
+    }, {
+      "uid" : "cfe45dfe0ccc7bcf",
+      "status" : "broken",
+      "statusDetails" : "function timed out, ensure the promise resolves within 6000 milliseconds",
+      "time" : {
+        "start" : 1582726702115,
+        "stop" : 1582726708123,
+        "duration" : 6008
+      }
+    }, {
+      "uid" : "993a2d27930d53b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1582679161575,
+        "stop" : 1582679167337,
+        "duration" : 5762
+      }
+    }, {
+      "uid" : "efabfd1c82fbbb18",
+      "status" : "broken",
+      "statusDetails" : "window is not defined",
+      "time" : {
+        "start" : 1582679060007,
+        "stop" : 1582679065235,
+        "duration" : 5228
+      }
+    }, {
+      "uid" : "a8bde2475505d068",
+      "status" : "broken",
+      "statusDetails" : "Reached error page: about:neterror?e=connectionFailure&u=http%3A//localhost%3A3112/login.html&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost%3A3112.",
+      "time" : {
+        "start" : 1582679015959,
+        "stop" : 1582679016159,
+        "duration" : 200
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6a62a3dbfd6f943f.json",
+  "parameterValues" : [ "1", "firefox-5.3.0-40-generic" ]
+}

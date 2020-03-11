@@ -61,7 +61,7 @@ typings/
 .next
 
 # allure
-allure-report
+# allure-report
 allure-results
 
 .now

@@ -1,0 +1,99 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "element (\"#resultStats\") still not displayed after 1000ms",
+      "children" : [ {
+        "name" : "Performing a search operation",
+        "uid" : "4f6effe43e111183",
+        "parentUid" : "443bb769f70ac657dea28dc75cf26426",
+        "status" : "broken",
+        "time" : {
+          "start" : 1582726896671,
+          "stop" : 1582726901886,
+          "duration" : 5215
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "chrome-80.0.3987.87" ]
+      }, {
+        "name" : "Performing a search operation",
+        "uid" : "952b881d9fc22840",
+        "parentUid" : "443bb769f70ac657dea28dc75cf26426",
+        "status" : "broken",
+        "time" : {
+          "start" : 1582726898256,
+          "stop" : 1582726902990,
+          "duration" : 4734
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "firefox-5.3.0-40-generic" ]
+      }, {
+        "name" : "Performing a search operation with passing test data as data table",
+        "uid" : "931436dcff7e49c8",
+        "parentUid" : "443bb769f70ac657dea28dc75cf26426",
+        "status" : "broken",
+        "time" : {
+          "start" : 1582726901889,
+          "stop" : 1582726906564,
+          "duration" : 4675
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2", "chrome-80.0.3987.87" ]
+      }, {
+        "name" : "Performing a search operation with passing test data as data table",
+        "uid" : "87bfd374d83f09ab",
+        "parentUid" : "443bb769f70ac657dea28dc75cf26426",
+        "status" : "broken",
+        "time" : {
+          "start" : 1582726902992,
+          "stop" : 1582726907999,
+          "duration" : 5007
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2", "firefox-5.3.0-40-generic" ]
+      } ],
+      "uid" : "443bb769f70ac657dea28dc75cf26426"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected false to be true",
+      "children" : [ {
+        "name" : "Logging in with passing login credentials as a data table",
+        "uid" : "6d856d494e07a13f",
+        "parentUid" : "81d949b8b4ac1baf44f7f368cbfa0d33",
+        "status" : "failed",
+        "time" : {
+          "start" : 1582815493318,
+          "stop" : 1582815496944,
+          "duration" : 3626
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2", "chrome-80.0.3987.87" ]
+      }, {
+        "name" : "Logging in with passing login credentials as a data table",
+        "uid" : "9b5baebc2b3be8ab",
+        "parentUid" : "81d949b8b4ac1baf44f7f368cbfa0d33",
+        "status" : "failed",
+        "time" : {
+          "start" : 1582815494858,
+          "stop" : 1582815498325,
+          "duration" : 3467
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2", "firefox-5.3.0-40-generic" ]
+      } ],
+      "uid" : "81d949b8b4ac1baf44f7f368cbfa0d33"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

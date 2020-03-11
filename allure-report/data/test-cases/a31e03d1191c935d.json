@@ -1,0 +1,155 @@
+{
+  "uid" : "a31e03d1191c935d",
+  "name" : "Logging in",
+  "fullName" : "Publish login.Logging in",
+  "historyId" : "4361e1131d63e22b11302a74d073b188",
+  "time" : {
+    "start" : 1582814698937,
+    "stop" : 1582814708144,
+    "duration" : 9207
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected false to be true",
+  "statusTrace" : "AssertionError: expected false to be true\n                    at PublishLoginSteps.<anonymous> (/home/nikki/Documents/webdriverio-typescript-cucumber/src/stepDefinitions/publish-login.steps.ts:39:16)\n                    at step (/home/nikki/Documents/webdriverio-typescript-cucumber/src/stepDefinitions/publish-login.steps.ts:39:23)\n                    at Object.next (/home/nikki/Documents/webdriverio-typescript-cucumber/src/stepDefinitions/publish-login.steps.ts:20:53)\n                    at /home/nikki/Documents/webdriverio-typescript-cucumber/src/stepDefinitions/publish-login.steps.ts:14:71\n                    at PublishLoginSteps.shouldBeOnBaseRoute (/home/nikki/Documents/webdriverio-typescript-cucumber/src/stepDefinitions/publish-login.steps.ts:72:16)\n                    at World.bindingFunc (/home/nikki/Documents/webdriverio-typescript-cucumber/node_modules/cucumber-tsflow/src/binding-decorator.ts:161:22)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected false to be true",
+    "statusTrace" : "AssertionError: expected false to be true\n                    at PublishLoginSteps.<anonymous> (/home/nikki/Documents/webdriverio-typescript-cucumber/src/stepDefinitions/publish-login.steps.ts:39:16)\n                    at step (/home/nikki/Documents/webdriverio-typescript-cucumber/src/stepDefinitions/publish-login.steps.ts:39:23)\n                    at Object.next (/home/nikki/Documents/webdriverio-typescript-cucumber/src/stepDefinitions/publish-login.steps.ts:20:53)\n                    at /home/nikki/Documents/webdriverio-typescript-cucumber/src/stepDefinitions/publish-login.steps.ts:14:71\n                    at PublishLoginSteps.shouldBeOnBaseRoute (/home/nikki/Documents/webdriverio-typescript-cucumber/src/stepDefinitions/publish-login.steps.ts:72:16)\n                    at World.bindingFunc (/home/nikki/Documents/webdriverio-typescript-cucumber/node_modules/cucumber-tsflow/src/binding-decorator.ts:161:22)",
+    "steps" : [ {
+      "name" : "Given I am on the login page",
+      "time" : {
+        "start" : 1582814698941,
+        "stop" : 1582814700660,
+        "duration" : 1719
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I enter \"admin\" into the username box",
+      "time" : {
+        "start" : 1582814700661,
+        "stop" : 1582814701778,
+        "duration" : 1117
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And I enter \"dt\" into the password box",
+      "time" : {
+        "start" : 1582814701778,
+        "stop" : 1582814702808,
+        "duration" : 1030
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And I click the login button",
+      "time" : {
+        "start" : 1582814702808,
+        "stop" : 1582814708048,
+        "duration" : 5240
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then I should be taken to the base route",
+      "time" : {
+        "start" : 1582814708049,
+        "stop" : 1582814708144,
+        "duration" : 95
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: expected false to be true\n                    at PublishLoginSteps.<anonymous> (/home/nikki/Documents/webdriverio-typescript-cucumber/src/stepDefinitions/publish-login.steps.ts:39:16)\n                    at step (/home/nikki/Documents/webdriverio-typescript-cucumber/src/stepDefinitions/publish-login.steps.ts:39:23)\n                    at Object.next (/home/nikki/Documents/webdriverio-typescript-cucumber/src/stepDefinitions/publish-login.steps.ts:20:53)\n                    at /home/nikki/Documents/webdriverio-typescript-cucumber/src/stepDefinitions/publish-login.steps.ts:14:71\n                    at PublishLoginSteps.shouldBeOnBaseRoute (/home/nikki/Documents/webdriverio-typescript-cucumber/src/stepDefinitions/publish-login.steps.ts:72:16)\n                    at World.bindingFunc (/home/nikki/Documents/webdriverio-typescript-cucumber/node_modules/cucumber-tsflow/src/binding-decorator.ts:161:22)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "edeaf249f9fcaa2b",
+        "name" : "Screenshot",
+        "source" : "edeaf249f9fcaa2b.png",
+        "type" : "image/png",
+        "size" : 20454
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "1-0"
+  }, {
+    "name" : "suite",
+    "value" : "Publish login"
+  }, {
+    "name" : "testClass",
+    "value" : "Publish login"
+  }, {
+    "name" : "testMethod",
+    "value" : "Logging in"
+  }, {
+    "name" : "package",
+    "value" : "Publish login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "Scenario #",
+    "value" : "1"
+  }, {
+    "name" : "browser",
+    "value" : "firefox-5.3.0-40-generic"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a31e03d1191c935d.json",
+  "parameterValues" : [ "1", "firefox-5.3.0-40-generic" ]
+}

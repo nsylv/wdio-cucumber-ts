@@ -1,0 +1,81 @@
+[ {
+  "uid" : "952b881d9fc22840",
+  "name" : "Performing a search operation",
+  "time" : {
+    "start" : 1582726898256,
+    "stop" : 1582726902990,
+    "duration" : 4734
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "87bfd374d83f09ab",
+  "name" : "Performing a search operation with passing test data as data table",
+  "time" : {
+    "start" : 1582726902992,
+    "stop" : 1582726907999,
+    "duration" : 5007
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4f6effe43e111183",
+  "name" : "Performing a search operation",
+  "time" : {
+    "start" : 1582726896671,
+    "stop" : 1582726901886,
+    "duration" : 5215
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6d856d494e07a13f",
+  "name" : "Logging in with passing login credentials as a data table",
+  "time" : {
+    "start" : 1582815493318,
+    "stop" : 1582815496944,
+    "duration" : 3626
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "931436dcff7e49c8",
+  "name" : "Performing a search operation with passing test data as data table",
+  "time" : {
+    "start" : 1582726901889,
+    "stop" : 1582726906564,
+    "duration" : 4675
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9b5baebc2b3be8ab",
+  "name" : "Logging in with passing login credentials as a data table",
+  "time" : {
+    "start" : 1582815494858,
+    "stop" : 1582815498325,
+    "duration" : 3467
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3bf5e217b49e5a60",
+  "name" : "Logging in",
+  "time" : {
+    "start" : 1583250246302,
+    "stop" : 1583250250886,
+    "duration" : 4584
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a62a3dbfd6f943f",
+  "name" : "Logging in",
+  "time" : {
+    "start" : 1583250248162,
+    "stop" : 1583250254219,
+    "duration" : 6057
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
